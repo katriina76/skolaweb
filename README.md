@@ -1,2 +1,2 @@
 # skolaweb
-gandrīz pabeigta weblapa skolas darbam
+gandrīz? pabeigta weblapa skolas darbam
