@@ -28,8 +28,7 @@ body {font-family: "Lato", sans-serif}
     <a href="#vg" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Vektorgrafika</a>
     <a href="otrais.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Individuālā tēma</a>
      
-   
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+   <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
   </div>
 </div>
 
@@ -100,7 +99,17 @@ body {font-family: "Lato", sans-serif}
     <p class="w3-opacity"><i>Lietojām Inkscape rīkus un dizaina domāšanas soļus grafiskā tēla radīšanai.</i></p>
     <img src="images/logoo.png" alt=""/>
   </div>
+  <script>
+  function myFunction() {
+    console.log("Toggle button clicked");
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 
 </body>
 </html>
-
